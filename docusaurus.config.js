@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apophis WiKi百科',
+  title: 'Apophis',
   tagline: '一个关于 科技与未来 的MINECRAFT社区',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'Apophis',
         logo: {
-          alt: '服务器LOGO',
+          alt: 'LOGO',
           src: 'img/logo.png',
         },
         items: [
@@ -71,8 +71,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'http://www.apophis.club/index.html',
+            label: '官网',
             position: 'right',
           },
         ],
@@ -107,7 +107,7 @@ const config = {
             items: [
               {
                 label: '官方网站',
-                href: 'http://www.apophis.club',
+                href: 'http://www.apophis.club/index.html',
               },
               {
                 label: '开黑啦(KOOK)',
