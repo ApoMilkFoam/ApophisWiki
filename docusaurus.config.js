@@ -6,19 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apophis',
+  title: 'Apophis WiKi百科',
   tagline: '一个关于 科技与未来 的MINECRAFT社区',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://baike.apophis.club',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -65,11 +60,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '/category/常见问题',
             position: 'left',
-            label: 'Tutorial',
+            label: '百科目录',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog', 
+            label: '更新记录', 
+            position: 'left'
+          },
           {
             href: 'http://www.apophis.club/index.html',
             label: '官网',
@@ -127,13 +126,17 @@ const config = {
             title: '更多',
             items: [
               {
-                label: 'Docusaurus GitHub',
+                label: '文档源代码',
                 href: 'https://github.com/facebook/docusaurus',
+              },
+              {
+                label: '隐私政策',
+                href: 'https://github.com/AopMilkFoam',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Apophis工作室 阿波菲斯`,
+        copyright: `Copyright © ${new Date().getFullYear()} Apophis All Rights Reserved`,
       },
       prism: {
         theme: lightCodeTheme,
