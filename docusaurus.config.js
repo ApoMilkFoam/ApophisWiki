@@ -142,6 +142,18 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      // algolia: {
+      //   // Algolia 提供的应用 ID
+      //   appId: 'YOUR_APP_ID',
+  
+      //   //  公开 API 密钥：提交它没有危险
+      //   apiKey: 'YOUR_SEARCH_API_KEY',
+  
+      //   indexName: 'YOUR_INDEX_NAME',
+  
+      //   // 可选：见下文
+      //   contextualSearch: true,
+      // },
     }),
 };
 
