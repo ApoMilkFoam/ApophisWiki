@@ -43,17 +43,11 @@ module.exports =  {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
+          showReadingTime: false,
+          blogSidebarCount: 0 ,
         },
         
         theme: {
@@ -80,8 +74,8 @@ module.exports =  {
             label: '百科目录',
           },
           {
-            to: '/blog', 
-            label: '更新记录', 
+            to: '/blog/background', 
+            label: '背景故事', 
             position: 'left'
           },
           {
