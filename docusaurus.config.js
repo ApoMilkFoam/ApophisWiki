@@ -5,7 +5,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports =  {
+
   title: 'Apophis WiKi百科',
   tagline: '一个关于 科技与未来 的MINECRAFT社区',
   url: 'https://baike.apophis.club',
@@ -13,13 +14,26 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  
+
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["zh"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      }),
+    ],
+  ],
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans"],
   },
 
   presets: [
@@ -41,6 +55,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -142,19 +157,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // algolia: {
-      //   // Algolia 提供的应用 ID
-      //   appId: 'YOUR_APP_ID',
-  
-      //   //  公开 API 密钥：提交它没有危险
-      //   apiKey: 'YOUR_SEARCH_API_KEY',
-  
-      //   indexName: 'YOUR_INDEX_NAME',
-  
-      //   // 可选：见下文
-      //   contextualSearch: true,
-      // },
     }),
 };
 
-module.exports = config;
