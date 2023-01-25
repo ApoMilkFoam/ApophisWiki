@@ -25,8 +25,11 @@ import TabItem from '@theme/TabItem';
   <TabItem value="无法获取" label="无法获取">
   顺手牵箱 战利品采集 瞬移
   </TabItem>
+
   <TabItem value="触发几率为0" label="触发几率为0">
   炸药 精准采笼 电矢 雷击 引爆 火球 强化冲击 自爆
+  </TabItem>
+  
   <TabItem value="伤害为0" label="伤害为0">
   龙息
   </TabItem>
