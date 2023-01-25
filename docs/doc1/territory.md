@@ -3,18 +3,6 @@ sidebar_position: 2
 ---
 # 领地用法与注意事项
 
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}>
-    {children}
-  </span>
-);
-
 ## 如何圈地
 
 - 前往 `毁神星` 后，在没有玩家圈地的地方拿着 `木铲子` 即可
@@ -29,11 +17,12 @@ export const Highlight = ({children, color}) => (
 
 
 ## 领地常用指令
-- /gd abandon claim - 放弃自己脚下的领地
-- /gd abandon all - 放弃自己所有的领地 <Highlight color="#ff0000">慎用</Highlight>
+- /gd abandon claim - 删除自己脚下的领地
+- /gd abandon all - 删除自己所有的领地
 - /gd claim list - 查看自己有权限的领地列表
 - /claim - 开启领地模式
-- /claimgui - 切换信息模式为 GUI/聊天
+- /claimgui - 在聊天栏/界面之间切换信息显示方式
+- /claimflag - 设置领地权限
 
 ## 领地信任指令
 
@@ -42,7 +31,7 @@ Container: 授予玩家/权限组与所有方块互动的权限，包括库存
 Builder: 授予玩家/权限组编辑权限，包括放置和破坏方块的能力，以实现上述所有功能  
 Manager: 授予玩家/权限组对上述所有内容的访问权，包括修改领地的能力 
 
-- /gd trust player [玩家] [上方类型] - 授予玩家访问你的领地
+- /trust - 授予玩家访问你的领地
 - /trustlist - 列出当前受信任的玩家和信任类型
 
 
