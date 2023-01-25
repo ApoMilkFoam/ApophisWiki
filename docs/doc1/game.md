@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 - 服务器的附魔机制不同于原版，而是在原版基础上增加了额外的 `50+` 附魔选项
 - 附魔机制控制的插件为 **[ExcellentEnchant](https://www.mcbbs.net/thread-867086-1-1.html)** 玩家可自行查看前往MCBBS帖子查看
-- 查看附魔列表的指令为 `/ge list`
+- 查看附魔列表的指令为 `/ec list`
 
 <details>
 
