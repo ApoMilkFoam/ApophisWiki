@@ -34,4 +34,23 @@ export const Highlight = ({children, color}) => (
 - /gd claim list - 查看自己有权限的领地列表
 - /claim - 开启领地模式
 - /claimgui - 切换信息模式为 GUI/聊天
-- /cf - 打开权限管理
+
+## 领地信任指令
+
+Accessor: 授予玩家/权限组与除库存以外的所有方块互动的权限  
+Container: 授予玩家/权限组与所有方块互动的权限，包括库存  
+Builder: 授予玩家/权限组编辑权限，包括放置和破坏方块的能力，以实现上述所有功能  
+Manager: 授予玩家/权限组对上述所有内容的访问权，包括修改领地的能力 
+
+- /gd trust player [玩家] [上方类型] - 授予玩家访问你的领地
+- /trustlist - 列出当前受信任的玩家和信任类型
+
+
+:::note
+
+
+注意: 如果你想移除信任, `type` 为 `none` 即可
+ 
+
+:::
+

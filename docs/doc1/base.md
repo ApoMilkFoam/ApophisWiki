@@ -29,18 +29,11 @@ sidebar_position: 1
 - /msg /tell /m - 私聊其他玩家
 - /pay 玩家id 钱 - 给指定玩家汇款
 
-<!-- :::tip
-
-`更多合成表`会在后续wiki项目更新 
-以及进服会自动给予`space`和`nova`的合成书
-
-:::   -->
-
 
 ## 材质包加载问题以及注意事项
 
 - 由于服务器主要由`ItemsAdder`插件制作，所以玩家如果需要获得更好的体验，需要同意服务器的材质包远程加载  
-- 考虑到有些玩家`不游玩工业类型`，可以在官方QQ群**[765667219](https://jq.qq.com/?_wv=1027&k=zqd2jeKi)**或者**[腾讯微云](https://share.weiyun.com/4ygwfEGi)**中下载`无工业的材质包`并安装在本地
+- 考虑到有些玩家`不游玩工业类型`，可以在官方QQ群 **[765667219](https://jq.qq.com/?_wv=1027&k=zqd2jeKi)** 或者 **[腾讯微云](https://share.weiyun.com/4ygwfEGi)**中下载`无工业的材质包`并安装在本地
 
 <details>
 
