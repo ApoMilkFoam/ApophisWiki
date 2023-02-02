@@ -87,65 +87,65 @@ module.exports =  {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: '技术支持',
-            items: [
-              {
-                label: 'Apophis工作室',
-                href: 'http://www.apophis.club',
-              },
-              {
-                label: 'VACsystem协议规则',
-                href: 'http://www.apophis.club/rules.html',
-              },
-              {
-                label: 'Ray_Hughes [枫溪]',
-                href: 'https://github.com/FxRayHughes',
-              },
-              {
-                label: 'Bkm016 [坏黑]',
-                href: 'https://github.com/Bkm016?tab=repositories',
-              },
+        // links: [
+        //   {
+        //     title: '技术支持',
+        //     items: [
+        //       {
+        //         label: 'Apophis工作室',
+        //         href: 'http://www.apophis.club',
+        //       },
+        //       {
+        //         label: 'VACsystem协议规则',
+        //         href: 'http://www.apophis.club/rules.html',
+        //       },
+        //       {
+        //         label: 'Ray_Hughes [枫溪]',
+        //         href: 'https://github.com/FxRayHughes',
+        //       },
+        //       {
+        //         label: 'Bkm016 [坏黑]',
+        //         href: 'https://github.com/Bkm016?tab=repositories',
+        //       },
               
-            ],
-          },
-          {
-            title: '相关链接',
-            items: [
-              {
-                label: '官方网站',
-                href: 'http://www.apophis.club/index.html',
-              },
-              {
-                label: '开黑啦(KOOK)',
-                href: 'https://kook.top/4CVK47',
-              },
-              {
-                label: '官方QQ交流群',
-                href: 'https://jq.qq.com/?_wv=1027&k=2J3fRH6U',
-              },
-              {
-                label: 'MCBBS论坛',
-                href: 'https://www.mcbbs.net/',
-              },
-            ],
-          },
-          {
-            title: '更多',
-            items: [
-              {
-                label: '文档源代码',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-              {
-                label: '隐私政策',
-                href: 'https://github.com/AopMilkFoam',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Apophis All Rights Reserved`,
+        //     ],
+        //   },
+        //   {
+        //     title: '相关链接',
+        //     items: [
+        //       {
+        //         label: '官方网站',
+        //         href: 'http://www.apophis.club/index.html',
+        //       },
+        //       {
+        //         label: '开黑啦(KOOK)',
+        //         href: 'https://kook.top/4CVK47',
+        //       },
+        //       {
+        //         label: '官方QQ交流群',
+        //         href: 'https://jq.qq.com/?_wv=1027&k=2J3fRH6U',
+        //       },
+        //       {
+        //         label: 'MCBBS论坛',
+        //         href: 'https://www.mcbbs.net/',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: '更多',
+        //     items: [
+        //       {
+        //         label: '文档源代码',
+        //         href: 'https://github.com/facebook/docusaurus',
+        //       },
+        //       {
+        //         label: '隐私政策',
+        //         href: 'https://github.com/AopMilkFoam',
+        //       },
+        //     ],
+        //   },
+        // ],
+        copyright: `Copyright © 2022 - ${new Date().getFullYear()} Apophis All Rights Reserved`,
       },
       prism: {
         theme: lightCodeTheme,

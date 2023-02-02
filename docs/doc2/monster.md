@@ -39,7 +39,7 @@ sidebar_position: 2
 </details>
 <details>
 
-<summary>幽匿石人</summary>
+<summary>撼岩石者</summary>
 
 属性: 石  
 基础生命:  
