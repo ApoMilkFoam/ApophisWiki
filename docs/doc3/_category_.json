@@ -1,8 +1,7 @@
 {
-  "label": "VACsystem协议",
+  "label": "游玩攻略",
   "position": 3,
   "link": {
-    "type": "generated-index",
-    "description": "该协议引用 VACsystem协议 作为参考, 一切相关法律责任由服务器开发者自行承担"
+    "type": "generated-index"
   }
 }
