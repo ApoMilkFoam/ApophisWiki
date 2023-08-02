@@ -8,11 +8,11 @@ sidebar_position: 1
 
 - 加入服务器官方QQ群下载客户端: **[765667219](https://jq.qq.com/?_wv=1027&k=zqd2jeKi)**
 - 前往百度网盘下载客户端: **[点击前往](https://pan.baidu.com/s/1Q1rYNnrsEUBzjJ-7AQu75Q?pwd=u39j)**
-- 自行下载 `1.19.3` 的客户端然后在服务器列表输入 `www.apophis.club` 即可进入游戏
+- 自行下载 `1.19.4` 的客户端然后在服务器列表输入 `www.apophis.club` 即可进入游戏
 
 <details>
 
-<summary>自行下载的客户端如何开始游戏</summary>
+<summary>自行下载的客户端如何开始游戏(旧版教程也可以应用于新版)</summary>
 
 ![图片](./img/fwq1.png)
 ![图片](./img/fwq2.png)
