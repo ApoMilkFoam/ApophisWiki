@@ -8,40 +8,7 @@ import Tabs from '@theme/Tabs';
 
 import TabItem from '@theme/TabItem';
 
-## 附魔机制
 
-- 服务器的附魔机制不同于原版，而是在原版基础上增加了额外的 `50+` 附魔选项
-- 附魔机制控制的插件为 **[ExcellentEnchant](https://www.mcbbs.net/thread-867086-1-1.html)** 玩家可自行查看前往MCBBS帖子查看
-- 查看附魔列表的指令为 `/ec list`
-
-<details>
-
-<summary>封禁附魔列表</summary>
-
-由于某些附魔的功能性较强，可能会导致服务器崩溃以及其他严重的破坏  
-所以进行不同的封禁类型
-
-<Tabs className="unique-tabs">
-  <TabItem value="无法获取" label="无法获取">
-  顺手牵箱 战利品采集 瞬移
-  </TabItem>
-
-  <TabItem value="触发几率为0" label="触发几率为0">
-  炸药 精准采笼 电矢 雷击 引爆 火球 强化冲击 自爆
-  </TabItem>
-  
-  <TabItem value="伤害为0" label="伤害为0">
-  龙息
-  </TabItem>
-</Tabs> 
-
-</details>
-
-:::caution
-
-时运附魔对于一些矿物无效
-
-:::  
 
 ## 武器装备材料特殊机制
 - 服务器在原版基础上增加了多种材料、武器、装备，所以会有很多的合成路径
