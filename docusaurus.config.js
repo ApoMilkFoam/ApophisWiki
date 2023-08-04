@@ -5,35 +5,31 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-module.exports =  {
-
-  title: 'Apophis WiKi百科',
+const config = {
+  title: 'Apophis 百科全书',
   tagline: '一个关于 科技与未来 的MINECRAFT社区',
-  url: 'https://baike.apophis.club',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  themes: [
-    [
-      "@easyops-cn/docusaurus-search-local",
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
-        hashed: true,
-        language: ["zh"],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      }),
-    ],
-  ],
+  // Set the production url of your site here
+  url: 'https://baike.apophis.club',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "zh-Hans",
-    locales: ["zh-Hans"],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -43,13 +39,18 @@ module.exports =  {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-
-          showReadingTime: false,
-          blogSidebarCount: 0 ,
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -60,6 +61,8 @@ module.exports =  {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // Replace with your project's social card
+      //image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Apophis',
         logo: {
@@ -87,64 +90,6 @@ module.exports =  {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: '技术支持',
-        //     items: [
-        //       {
-        //         label: 'Apophis工作室',
-        //         href: 'http://www.apophis.club',
-        //       },
-        //       {
-        //         label: 'VACsystem协议规则',
-        //         href: 'http://www.apophis.club/rules.html',
-        //       },
-        //       {
-        //         label: 'Ray_Hughes [枫溪]',
-        //         href: 'https://github.com/FxRayHughes',
-        //       },
-        //       {
-        //         label: 'Bkm016 [坏黑]',
-        //         href: 'https://github.com/Bkm016?tab=repositories',
-        //       },
-              
-        //     ],
-        //   },
-        //   {
-        //     title: '相关链接',
-        //     items: [
-        //       {
-        //         label: '官方网站',
-        //         href: 'http://www.apophis.club/index.html',
-        //       },
-        //       {
-        //         label: '开黑啦(KOOK)',
-        //         href: 'https://kook.top/4CVK47',
-        //       },
-        //       {
-        //         label: '官方QQ交流群',
-        //         href: 'https://jq.qq.com/?_wv=1027&k=2J3fRH6U',
-        //       },
-        //       {
-        //         label: 'MCBBS论坛',
-        //         href: 'https://www.mcbbs.net/',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: '更多',
-        //     items: [
-        //       {
-        //         label: '文档源代码',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //       {
-        //         label: '隐私政策',
-        //         href: 'https://github.com/AopMilkFoam',
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright: `Copyright © 2022 - ${new Date().getFullYear()} Apophis All Rights Reserved`,
       },
       prism: {
@@ -154,3 +99,4 @@ module.exports =  {
     }),
 };
 
+module.exports = config;
