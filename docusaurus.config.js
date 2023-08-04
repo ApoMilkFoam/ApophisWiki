@@ -77,8 +77,8 @@ const config = {
             label: '百科目录',
           },
           {
-            to: '/blog/background', 
-            label: '背景故事', 
+            to: '/blog/background',
+            label: '背景故事',
             position: 'left'
           },
           {
